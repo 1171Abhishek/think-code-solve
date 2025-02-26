@@ -1,9 +1,3 @@
-/**  But I will not use it here
-
- * % 10 -> gives the last digit
- * / 10 -> removes the last digit
- */
-
 fun reverseFunction(originalString: String): String {
     var index = originalString.length - 1
     var reversedString = ""

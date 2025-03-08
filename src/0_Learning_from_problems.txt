@@ -1,0 +1,43 @@
+**Learning from Solved Problems**
+
+**Q1: Convert a Number to Binary**
+- `% 2` gives the last binary digit.
+- `/ 2` removes the last binary digit.
+
+**Q2: Count the Number of 1s in Binary Representation**
+- Convert a number to binary without using strings.
+- Count occurrences of `1` while dividing the number by `2`.
+
+**Q3: Find Factorial of a Number (Recursion & Loop)**
+- Base case in recursion (`if (n == 0) return 1`).
+- Use a loop to multiply decrementing numbers.
+
+**Q4: Reverse Digits of a Number**
+- `% 10` gives the last digit.
+- `/ 10` removes the last digit.
+- Multiply the reversed number by `10` before adding the last digit.
+
+**Q5: Count the Number of Digits**
+- Keep dividing by `10` until the number becomes `0`.
+- Special case: `0` has `1` digit.
+
+**Q6: Check If a Number is Palindrome (Without String Conversion)**
+- Reverse the number and compare with the original.
+- Handle negative numbers separately.
+
+**Q7: Find the Sum of Digits**
+- `% 10` extracts the last digit.
+- Sum up extracted digits.
+- `/ 10` removes the last digit.
+
+**Q8: Reverse an Integer (Handling Leading Zeros & Negatives)**
+- Track the sign and handle separately.
+- `% 10` and `/ 10` help in reversing digits.
+- Multiplication by `-1` restores the sign if the input is negative.
+
+**General Learnings:**
+- `return` in a `Unit` function exits immediately.
+- `%` extracts the last digit, `/` removes it.
+- Loop runs until `number > 0` to process all digits.
+- Always handle edge cases (zero, negatives, etc.).
+

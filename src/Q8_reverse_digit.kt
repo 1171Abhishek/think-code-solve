@@ -1,3 +1,8 @@
+/*
+Write a function in Kotlin that takes an integer as input and reverses its digits without converting it to a string.
+The function should return the reversed number as an integer.
+ */
+
 fun reverseDigit(n: Int): Int {
     var number = n
     var reversedNumber = 0
@@ -16,5 +21,5 @@ fun reverseDigit(n: Int): Int {
 
 fun main() {
     println(reverseDigit(100))  // Output: 1
-    println(reverseDigit(-9807)) // Output: -789
+    println(reverseDigit(-9807)) // Output: -7089
 }

@@ -35,6 +35,11 @@
 - `% 10` and `/ 10` help in reversing digits.
 - Multiplication by `-1` restores the sign if the input is negative.
 
+Q9: Count even odd digits
+-  Using Pair<T, T> to return multiple values.
+-  Extracting Pair values into separate variables (val (even, odd) = functionCall()).
+-  Converting negative numbers to positive using -n (handling absolute values).
+
 **General Learnings:**
 - `return` in a `Unit` function exits immediately.
 - `%` extracts the last digit, `/` removes it.

@@ -1,12 +1,9 @@
 **Learning from Solved Problems**
 
-**Q1: Convert a Number to Binary**
-- `% 2` gives the last binary digit.
-- `/ 2` removes the last binary digit.
+Q2: Reverse Integer
+- % 10 gives the last digit.
+- / 10 removes the last digit.
 
-**Q2: Count the Number of 1s in Binary Representation**
-- Convert a number to binary without using strings.
-- Count occurrences of `1` while dividing the number by `2`.
 
 **Q3: Find Factorial of a Number (Recursion & Loop)**
 - Base case in recursion (`if (n == 0) return 1`).

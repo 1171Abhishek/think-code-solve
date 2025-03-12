@@ -1,3 +1,7 @@
+/*
+Problem Statement:
+Write a function in Kotlin that takes an integer n and returns the number of 1s in its binary representation.
+ */
 fun countOnesInBinary(n: Int): Int {
     var num = n
     var count = 0

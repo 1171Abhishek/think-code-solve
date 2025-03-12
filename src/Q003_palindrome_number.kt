@@ -1,6 +1,14 @@
 /* ******* Question *******
 Write a function that checks if a given integer x is a palindrome number. A number is considered a
-palindrome if it reads the same forward and backward. */
+palindrome if it reads the same forward and backward.
+
+Number	Reversed	Palindrome?
+121	       121	        Yes
+-121	   121-	         No
+10	        01	         No
+1221	   1221	        Yes
+
+*/
 
 /**
  * % 10 -> gives the last digit
@@ -24,6 +32,6 @@ fun isPalindrome(x: Int):Boolean {
 
 
 fun main() {
-    println(isPalindrome(121))
+    println(isPalindrome(0))
 }
 
